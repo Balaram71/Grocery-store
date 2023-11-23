@@ -1,0 +1,362 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery</title>
+
+    <link rel="stylesheet" type="text/css" href="grocery.css">
+
+    <link rel="stylesheet" 
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700;800;900&family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,1,0" />
+</head>
+<body><!-- header -->
+    <header>
+     <a href="#" class="logo">
+        <img src="C:\Users\ramsl\Desktop\Grocery\Final Logo.png">
+     </a>
+<ul class="navbar">
+    <li><a href="#Home" class="active">Home</a></li>
+    <li><a href="#History" class=>History</a></li>
+    <li><a href="#Aboutus" class=>Aboutus</a></li>
+    <li><a href="#contact" class=>contact</a></li>
+    <li><a href="Shop.html" class=>Shop</a></li>
+</ul>
+
+<div class="header-icons">
+    <a href="#"><i class='bx bx-search'></i></a>
+    <a href="#"><i class='bx bxs-bell'></i></a>
+    <button class="button" id="form-open"><a href="#"><i class='bx bxs-user'></i></a></button>
+    <div class="bx bx-menu" id="menu-icon"></div>
+    
+
+
+
+    <!-- Dark mode -->
+    <i class='bx bx-moon' id="darkModeButton"> </i>
+</div>
+
+ </header>
+
+
+ <!-- home -->
+ <section class="home" id="Home">
+    <div class="home-text">
+        <h1>Order your <br> Grocery items.</h1>
+            <p>We promise you'll enjoy every moment to find your favourite. Buy what you love and save your time and Be Healthy.</p>
+            <div class="home-btn">
+                <a href="#" class="btn">Place Order</a>
+                <a href="#" class="btn2"> <span><i class='bx bx-play' ></i></span>Watch Videos </a>
+            </div>
+    </div>
+    <div class="home-img">
+    <img src="C:\Users\91939\OneDrive\Documents\Desktop\WEB\Home scrn png.png">
+    </div>
+
+
+<!-- login -->
+
+<div class="form_container">
+    <i class="uil uil-times form_close"></i>
+    <!-- Login From -->
+    <div class="form login_form">
+      <form action="#">
+        <h2>Login</h2>
+        <div class="input_box">
+          <input type="email" placeholder="Enter your email" required />
+          <i class="uil uil-envelope-alt email"></i>
+        </div>
+        <div class="input_box">
+          <input type="password" placeholder="Enter your password" required />
+          <i class="uil uil-lock password"></i>
+          <i class="uil uil-eye-slash pw_hide"></i>
+        </div>
+        <div class="option_field">
+          <span class="checkbox">
+            <input type="checkbox" id="check" />
+            <label for="check">Remember me</label>
+          </span>
+          <a href="#" class="forgot_pw">Forgot password?</a>
+        </div>
+        <button class="button">Login Now</button>
+        <div class="login_signup">Don't have an account? <a href="#" id="signup">Signup</a></div>
+      </form>
+    </div>
+    <!-- Signup From -->
+    <div class="form signup_form">
+      <form action="#">
+        <h2>Signup</h2>
+        <div class="input_box">
+          <input type="email" placeholder="Enter your email" required />
+          <i class="uil uil-envelope-alt email"></i>
+        </div>
+        <div class="input_box">
+          <input type="password" placeholder="Create password" required />
+          <i class="uil uil-lock password"></i>
+          <i class="uil uil-eye-slash pw_hide"></i>
+        </div>
+        <div class="input_box">
+          <input type="password" placeholder="Confirm password" required />
+          <i class="uil uil-lock password"></i>
+          <i class="uil uil-eye-slash pw_hide"></i>
+        </div>
+        <button class="button">Signup Now</button>
+        <div class="login_signup">Already have an account? <a href="#" id="login">Login</a></div>
+      </form>
+    </div>
+  </div>
+
+
+ </section>
+
+ <!-- chat bot -->
+<button class="chatbot-toggler">
+    <span class="material-symbols-rounded">mode_comment</span>
+    <span class="material-symbols-outlined">close</span>
+  </button>
+  <div class="chatbot">
+    <header>
+      <h2>Chatbot</h2>
+      <span class="close-btn material-symbols-outlined">close</span>
+    </header>
+    <ul class="chatbox">
+      <li class="chat incoming">
+        <span class="material-symbols-outlined">smart_toy</span>
+        <p>Hi there <br>How can I help you today?</p>
+      </li>
+    </ul>
+    <div class="chat-input">
+      <textarea placeholder="Enter a message..." spellcheck="false" required></textarea>
+      <span id="send-btn" class="material-symbols-rounded">send</span>
+    </div>
+  </div>
+
+ <!-- Categories -->
+
+ <section class="categories" id="categories">
+  <div class="center-text">
+    <strong>Categories</strong>
+    <h2>Category Menu</h2>
+ </div>
+
+ <div class="categories-content">
+    <div class="box">
+        <div class="box-img">
+            <img src="C:\Users\ramsl\Desktop\Grocery\vg2.png">
+        </div>
+        <h3>Vegetables</h3>
+        <p>Find Fresh and organic Vegetables eat Healthy and save your time</p>
+    </div>
+     
+    <div class="box">
+        <div class="box-img">
+            <img src="C:\Users\ramsl\Desktop\Grocery\Beverages2.png">
+        </div>
+        <h3>Beverages</h3>
+        <p>Find Fresh and Natural Honey , Milk and save your time</p>
+    </div>
+
+    <div class="box">
+        <div class="box-img">
+            <img src="C:\Users\ramsl\Desktop\Grocery\fruiticon2.png">
+        </div>
+        <h3>Fruits</h3>
+        <p>Find Fresh and organic Fruits eat Healthy and save your time</p>
+    </div>
+ </div>
+
+</section>
+
+<!-- History -->
+<section class="History" id="History">
+    <div class="History-img">
+        <img src="C:\Users\ramsl\Desktop\Grocery\imagee1.png">
+    </div>
+    <div class="History-text">
+        <strong>Our History</strong>
+        <h2>Discover Our Glory Beginning</h2>
+        <p>We promise you'll enjoy every sweet moment to find your favourite,eat what you love and save your health and time.
+        </p>
+        <div class="know-btn">
+        <a href="#" class="btn"> Know more about Us</a>
+        </div>
+        </div>
+</section>
+
+<!-- Popular menu -->
+<section class="menu" id="menu">
+    <div class="center-text">
+        <strong>Our Popular Menu</strong>
+        <h2>Some popular items</h2>
+        </div>
+
+    <div class="menu-content">
+        <div class="row">
+            <div class="row-img">
+                <img src="C:\Users\ramsl\Desktop\Grocery\tmtbrc2.png">
+            </div>
+            <h5> Vegetables</h5>
+            <h6>Rs.120</h6>
+            <div class="ratings">
+                <a href="#"><i class='bx bxs-star'></i></a>
+                <a href="#"><i class='bx bxs-star'></i></a>
+                <a href="#"><i class='bx bxs-star'></i></a>
+                <a href="#"><i class='bx bxs-star'></i></a>
+                <a href="#"><i class='bx bxs-star-half'></i></a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="row-img">
+                <img src="C:\Users\ramsl\Desktop\Grocery\Fruit.png">
+            </div>
+            <h5> Fruits</h5>
+            <h6>Rs.180</h6>
+            <div class="ratings">
+                <a href="#"><i class='bx bxs-star'></i></a>
+                <a href="#"><i class='bx bxs-star'></i></a>
+                <a href="#"><i class='bx bxs-star'></i></a>
+                <a href="#"><i class='bx bxs-star'></i></a>
+                <a href="#"><i class='bx bxs-star-half'></i></a>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="row-img">
+                <img src="C:\Users\ramsl\Desktop\Grocery\hon.png">
+            </div>
+            <h5> Beverages</h5>
+            <h6>Rs.230</h6>
+            <div class="ratings">
+                <a href="#"><i class='bx bxs-star'></i></a>
+                <a href="#"><i class='bx bxs-star'></i></a>
+                <a href="#"><i class='bx bxs-star'></i></a>
+                <a href="#"><i class='bx bxs-star'></i></a>
+                <a href="#"><i class='bx bxs-star-half'></i></a>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="row-img">
+                <img src="C:\Users\ramsl\Desktop\Grocery\dryfruits.png">
+            </div>
+            <h5> Dry Fruits</h5>
+            <h6>Rs.430</h6>
+            <div class="ratings">
+                <a href="#"><i class='bx bxs-star'></i></a>
+                <a href="#"><i class='bx bxs-star'></i></a>
+                <a href="#"><i class='bx bxs-star'></i></a>
+                <a href="#"><i class='bx bxs-star'></i></a>
+                <a href="#"><i class='bx bxs-star-half'></i></a>
+            </div>
+        </div>
+
+    </div>
+<div class="menu-btn">
+    <a href="#" class="btn">View More items</a>
+</div>
+</section>
+
+<!-- About us -->
+<section class="Aboutus" id="Aboutus">
+    <div class="AboutuS-Left">
+        <strong>About us</strong>
+        <h2>
+            What People say <br> About us</h2>
+    </div>
+    <div class="aboutus-right">
+        <div class="Aboutus">
+            <img src="C:\Users\ramsl\Desktop\Grocery\review.png">
+        </div>
+    </div>
+<div class="userboy">
+    <img src="C:\Users\ramsl\Desktop\Grocery\useravatar1png.png">
+            <h4> BalaRam</h4>
+            <h6>Bhimavaram,Andhrapradesh</h6>
+            <p>This is the first time I have shopped from this website, all the products were so well packed and the sweetest thing was that they sent a
+                 little packet of sweets as a complimentary which shows how much they value their customers.
+                Thank you for your amazing service.</p>
+</div> 
+
+<div class="userboy2">
+    <img src="C:\Users\ramsl\Desktop\Grocery\useravatar2png.png">
+            <h4>Gowtham</h4>
+            <h6>Hyderabad,Telangana</h6>
+            <p>We were very pleased with the service, received what we ordered with in the time frame , packing was well organised. The vegetables were fresh,
+                 Your website and online order system is good. please keep this up,
+                 Thank you.</p>
+</div>
+</section>
+
+<!-- News letter -->
+<section class="newsletter">
+    <div class="center-text">
+        <h2>Subscribe Newsletter</h2>
+    </div>
+
+<form action="">
+    <input type="email" name="" placeholder="Enter your email.." class="email" required>
+    <input type="submit" value="Subscribe" class="btn">
+</form>
+</section>
+
+<!-- Contact -->
+<section class="contact" id="contact">
+    <div class="contact-box">
+        <a href="#" class="logo">
+            <img src="C:\Users\ramsl\Desktop\Grocery\Final Logo.png">
+        </a>
+    
+
+    <div class="icons">
+        <a href="#"><i class='bx bxl-facebook-circle' ></i></a>
+        <a href="#"><i class='bx bxl-instagram-alt' ></i></a>
+        <a href="#"><i class='bx bxl-twitter' ></i></a>
+        <a href="#"><i class='bx bxl-youtube' ></i></a>
+  </div>
+ </div>
+
+
+<div class="contact-box">
+    <h3>Support</h3>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">How it works</a></li>
+    <li><a href="#">Features</a></li>
+    <li><a href="#">Contact</a></li>
+</div>
+<div class="contact-box">
+    <h3>Links</h3>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">How it works</a></li>
+    <li><a href="#">Features</a></li>
+    <li><a href="#">Contact</a></li>
+</div>
+<div class="contact-box">
+    <h3>Our menu</h3>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">How it works</a></li>
+    <li><a href="#">Features</a></li>
+    <li><a href="#">Contact</a></li>
+</div>
+</section> 
+<!-- copy raight -->
+<div class="copyright">
+</div>
+
+
+
+         <!-- js file link -->
+   <script src="Grocery.js"></script>
+         
+</body>
+</html>
+
+
+
